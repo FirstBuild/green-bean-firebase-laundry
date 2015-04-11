@@ -1,0 +1,28 @@
+{
+  "name": "green-bean-firebase-laundry",
+  "version": "0.0.0",
+  "description": "Demo listening to green bean and dumping things into firebase.",
+  "main": "machine-status.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstbuild/green-bean-firebase-laundry.git"
+  },
+  "keywords": [
+    "green-bean",
+    "ge",
+    "appliances"
+  ],
+  "author": "Wade Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstbuild/green-bean-firebase-laundry/issues"
+  },
+  "homepage": "https://github.com/firstbuild/green-bean-firebase-laundry",
+  "dependencies": {
+    "green-bean": "git+https://github.com/GEMakers/green-bean.git",
+    "firebase": "~2.2.3"
+  }
+}
